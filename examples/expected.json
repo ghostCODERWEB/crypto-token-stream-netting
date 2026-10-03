@@ -1,0 +1,22 @@
+{
+  "balances": {
+    "a": -10,
+    "b": 20
+  },
+  "conserved": true,
+  "first_insolvent_second": 6,
+  "trace": [
+    {
+      "balances": {
+        "a": -10,
+        "b": 20
+      },
+      "end": 10,
+      "net_rates": {
+        "a": -2,
+        "b": 2
+      },
+      "start": 0
+    }
+  ]
+}

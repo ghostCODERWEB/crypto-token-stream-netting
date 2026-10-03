@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-token-stream-netting"
+version = "0.1.0"
+description = "Integrate account stream rates across event boundaries and detect intermediate balance insolvency."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-token-stream-netting = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]
